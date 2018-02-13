@@ -1,0 +1,51 @@
+input[type="text"]{
+	font-size: 112px;
+	border: none;
+	width: calc(100% - 116px)
+}
+
+button{
+	border: none;
+	background-color: transparent;
+	background: url(magnifier.svg);
+	height: 100px;
+	width: 100px;
+}
+
+body{
+	width: 80%;
+	margin: 20px auto;
+	font-family: arial;
+}
+
+.list{
+	display: inline-block;
+	width: 32%;
+	height: 100%;
+}
+
+h2{
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+li{
+	list-style: none;
+	padding: 10px;
+	margin: 2px;
+	background-color: #f1f1f1;
+}
+
+li img{
+	border-radius: 100%;
+	margin-right: 10px;
+	margin-bottom: -20px;
+}
+
+li span{
+	line-height: 74px;
+}
+
+ul{
+	padding-left: 0;
+}
