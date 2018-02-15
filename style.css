@@ -1,51 +1,85 @@
-input[type="text"]{
-	font-size: 112px;
-	border: none;
-	width: calc(100% - 116px)
-}
-
-button{
-	border: none;
-	background-color: transparent;
-	background: url(magnifier.svg);
-	height: 100px;
-	width: 100px;
-}
-
 body{
-	width: 80%;
-	margin: 20px auto;
-	font-family: arial;
+    background-image: url(main_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: arial;
 }
 
-.list{
-	display: inline-block;
-	width: 32%;
-	height: 100%;
+.shopwindow{
+    margin: 5% 10% auto;
+    background-color: #091323;
+    padding: 20px;
+    border-radius: 15px;
 }
 
-h2{
-	text-transform: uppercase;
-	font-size: 20px;
+.shopwindow__left{
+   display: inline-block;
+   width: 60%;
 }
 
-li{
-	list-style: none;
-	padding: 10px;
-	margin: 2px;
-	background-color: #f1f1f1;
+.shopwindow__right{
+   display: inline-block;
+   width: 38%;
+   padding-top: 40px;
+   padding-bottom: 40px;
 }
 
-li img{
-	border-radius: 100%;
-	margin-right: 10px;
-	margin-bottom: -20px;
+.shopwindow__img{
+    display: block;
+    margin-bottom: 40px;
 }
 
-li span{
-	line-height: 74px;
+.shopwindow__colors{
+    width: 80px;
+    margin: 70px auto 0;
 }
 
-ul{
-	padding-left: 0;
+.shopwindow__color{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 2px solid #091323;
+    background-color: #091323;
+}
+.shopwindow__color:hover{
+    border: 2px solid white;
+}
+
+.shopwindow__color--gray{
+    background-color: #1a2e3f;
+}
+.shopwindow__color--white{
+    background-color: #fff;
+}
+.shopwindow__color--red{
+    background-color: #f24141;
+}
+.shopwindow__color--green{
+    background-color: #26f2f2;
+}
+
+.shopwindow__h1{
+    color: #d8d8d8;
+    margin: 0;
+    font-weight: 100;
+}
+
+.shopwindow__p{
+    color: #666;
+}
+
+.shopwindow_select{
+    background-color: transparent;
+    color: #d8d8d8;
+    padding: 6px 10px;
+    border: 1px solid #404754;
+}
+
+.shopwindow__button{
+    background-color: rgba(216, 216, 216, 0.1);
+    border: 1px solid #404754;
+    color: #d8d8d8;
+    padding: 10px 60px;
+    margin-top: 30px;
 }
